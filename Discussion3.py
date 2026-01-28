@@ -31,12 +31,13 @@ def main():
     print("r1:", r1)
     # call the area_calculator method
     print("Area:", r1.area_calculator())
+    print()
     
     r2 = Rectangle(10, 15)
     print("r2:", r2)
     print("Area:", r2.area_calculator())
     # call the __eq__ method
-    print(r1 == r2)
+    print("Equal: r1 == r2?", r1 == r2)
     print()
 
     r3 = Rectangle(10, 15)
